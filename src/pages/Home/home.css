@@ -3,6 +3,13 @@
   margin: 14px auto;
 }
 
+.loading{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 14px;
+}
+
 .lista-filmes article {
   width: 100%;
   background-color: #fff;
@@ -19,8 +26,9 @@
 
 .lista-filmes img{
   width: 900px;
+  height: 400px;
   max-width: 100%;
-  min-height: 340px;
+  min-height: 3px;
   object-fit: cover;
   display: block;
   border-top-left-radius: 8px;
